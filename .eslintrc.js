@@ -3,12 +3,13 @@ module.exports = {
     browser: true,
     es2021: true,
     node: true,
-    "jest/globals": true
+    'jest/globals': true
 
   },
   extends: [
     'next/core-web-vitals',
     'plugin:react/recommended',
+    'plugin:cypress/recommended',
     'standard'
   ],
   parserOptions: {
